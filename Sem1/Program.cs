@@ -13,7 +13,7 @@ if ( qwad == num1)
 }
 else
 {
-    Console.WriteLine ("Хуевое выражение!!");
+    Console.WriteLine ("Неверное выражение!!");
 }
 */
 
