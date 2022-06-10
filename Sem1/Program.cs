@@ -17,7 +17,7 @@ else
 }
 */
 
-int num, current;
+/*int num, current;
 
  Console.Write ("Input integer num ");
  num = Convert.ToInt32(Console.ReadLine ());
@@ -29,3 +29,37 @@ while (current <= num)
 Console.Write (current + " ");
 current++;
 }
+*/
+int numweek;
+Console.Write("Input numweek: ");
+numweek =  Convert.ToInt32(Console.ReadLine()); 
+if(numweek == 1)
+{
+    Console.Write("Понедельки");
+}
+if(numweek == 2)
+{
+    Console.Write("Вторник");
+}
+if(numweek == 3)
+{
+    Console.Write("Среда");
+}
+if(numweek == 4)
+{
+    Console.Write("Четверг");
+}
+if(numweek == 5)
+{
+    Console.Write("Пятница");
+}
+if(numweek == 6)
+{
+    Console.Write("Суббота");
+}
+if(numweek == 7)
+{
+    Console.Write("Воскресение");
+}
+
+
