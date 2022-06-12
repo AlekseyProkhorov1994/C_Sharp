@@ -54,7 +54,8 @@ else
         if(num > 5)
         {
             return "Yes";
-        }else return "No";
+        }
+        else return "No";
     }
     else return "There are only 7 days in a week!";
 
