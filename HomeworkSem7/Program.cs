@@ -1,6 +1,6 @@
 ﻿ // Задача 1
-/*
- double[,] NewCreateTwoDemArrayRealNum(int a, int b)
+
+/* double[,] NewCreateTwoDemArrayRealNum(int a, int b, int min, int max)
 {
     Random random = new Random();
     double[,] myArray = new double[a,b];
@@ -8,7 +8,7 @@
     {
         for( int j = 0; j < b; j++)
         {
-            myArray[i,j] =  Math.Round(-10 + random.NextDouble() * (10 + 10) , 2);
+            myArray[i,j] =  Math.Round(min + random.NextDouble() * (min + max) , 2);
             Console.Write(myArray[i,j] + " ");
         }
         Console.WriteLine();
@@ -18,10 +18,14 @@
 }
 
 Console.Write("Введите количество строк массива: ");
-int A  = Convert.ToInt32(Console.ReadLine());
+int s  = Convert.ToInt32(Console.ReadLine());
 Console.Write("Введите количество столбцов массива: ");
-int B  = Convert.ToInt32(Console.ReadLine());
-NewCreateTwoDemArrayRealNum(A,B); */
+int c  = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите min: ");
+int Min  = Convert.ToInt32(Console.ReadLine());
+Console.Write("Введите max: ");
+int Max  = Convert.ToInt32(Console.ReadLine());
+NewCreateTwoDemArrayRealNum(s,c,Min,Max); */
 
 // Задача 2
 
